@@ -1,0 +1,29 @@
+{
+  "name": "cv_api_rdx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SubsurfaceStudios/CV_API_RDX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SubsurfaceStudios/CV_API_RDX/issues"
+  },
+  "homepage": "https://github.com/SubsurfaceStudios/CV_API_RDX#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}

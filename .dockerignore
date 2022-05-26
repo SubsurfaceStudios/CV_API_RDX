@@ -1,0 +1,10 @@
+node_modules
+src
+LICENSE
+tsconfig.json
+package-lock.json
+Dockerfile
+.dockerignore
+.eslintignore
+.eslintrc
+.gitignore
