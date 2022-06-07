@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

@@ -1,9 +1,15 @@
 {
     "compilerOptions": {
-        "target": "ESNext",
+        "target": "ES2017",
         "watch": true,
         "outDir": "build",
         "moduleResolution": "node",
-        "module": "esnext"
+        "module": "CommonJS"
+    },
+    "compileOnSave": true,
+    "buildOptions": {
+        "incremental": true,
+        "verbose": true,
+        "force": false
     }
 }

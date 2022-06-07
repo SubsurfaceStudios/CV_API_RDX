@@ -1,5 +1,15 @@
 {
     "parserOptions": {
         "ecmaVersion": "latest"
+    },
+    "noInlineConfig": true,
+    "rules": {
+        "eqeqeq": "error",
+        "camelcase": "warn",
+        "indent": "warn",
+        "no-mixed-spaces-and-tabs": "error",
+        "no-eval": "error",
+        "no-octal": "error",
+        "no-undefined": "error"
     }
 }
